@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins & display=swap');
+
+body {
+	background-color: #EEEEEE;
+	font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+	color: #06113C;
+	text-decoration: underline #FF8C32;
+	font-size: 30px;
+
+}
+
+h2 {
+	color: #FF8C32;
+	font-size: 25px;
+}
+
+p {
+	color: #06113C;
+	font-size: 20px;
+}
