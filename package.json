@@ -2,10 +2,11 @@
   "name": "p2-30039933",
   "version": "1.0.0",
   "description": "P2-30039933",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "dev": "nodemon app",
+    "start": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Yaneth Doria",
   "license": "ISC",

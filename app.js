@@ -2,8 +2,10 @@
 
 const express = require('express')
 const app = express();
-const server = app.listen(process.env.PORT || 3000);
-const portNumber = server.address().port;
+const PORT = process.env.PORT || 3000
+app.listen(PORT, function(){
+	console.log('Servidor escuchando en el puerto: ', PORT)
+})
 
 // Static Files
 
